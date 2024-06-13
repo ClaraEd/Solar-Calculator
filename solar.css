@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  color: royalblue;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004b8e;
+  color: white;
+}
+fieldset {
+  border-radius: 10px;
+  border: 2px solid #004b8e;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+img {
+  width: 100%;
+  max-width: 350px;
+}
+legend {
+  color: midnightblue;
+  font-weight: bold;
+}
+button {
+  background-color: #004b8e;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+main {
+  padding: 2%;
+  display: block;
+}
+main h1 {
+  color: #e05b13;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+main h2 {
+  color: #e05b13;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+main p {
+  line-height: 1.25;
+  padding-bottom: 0.25rem;
+}
+form label {
+  display: block;
+  padding: 0.4rem 0;
+  font-size: 0.75rem;
+}
+form span {
+  display: block;
+  font-size: 0.7rem;
+  color: #004b8e;
+}
+form input,
+form select {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 0.95rem;
+}
+form select {
+  width: 100%;
+}
+button {
+  width: 100%;
+  border: none;
+  padding: 0.8rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background: #004b8e;
+  background: linear-gradient(to bottom, #004b8e 1%, #002751 100%);
+}
